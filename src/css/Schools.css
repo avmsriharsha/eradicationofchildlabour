@@ -1,0 +1,107 @@
+.school {
+    margin: 0%; 
+    padding: 0%; 
+    color: black;  
+    background: url('../img/sch4.jpg');  
+    background-size: cover;
+    padding: 5% 0 5% 0;
+}
+
+#details1
+{
+    margin-left: 35%;
+    margin-right: 35%;
+    background:rgba(83, 82, 82, 0.7);
+    border-radius: 20px;
+    padding: 2% 0 2% 0;
+}
+#heading5{
+    text-align: center;
+    font-size: 40px;
+}
+#sns{
+    border: none;
+    border-bottom:1px solid #000;
+    background: transparent;
+    outline:none;
+    padding: 5px; 
+    width: 300px;
+    height:40px;
+    color: black;
+    font-size:18px;
+}
+#sns::placeholder{
+    color: black;
+}
+#sign_out
+{
+    height: 50px;
+    width: 140px;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+}
+#sign_out:hover{
+    background-position: 200px 0;
+    color: white;
+    opacity: 1;
+}
+#scl{
+    color: #000;
+    font-size: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+    border-radius: 20px;
+    
+}
+#ssb{
+    color: #000;
+    font-size: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+    border-radius: 20px;
+    
+}
+#scl:hover{
+    background-position: 200px 0;
+    color: rgb(243, 14, 14);
+    opacity: 1;
+}
+#ssb:hover{
+    background-position: 200px 0;
+    color: rgb(14, 253, 6);
+    opacity: 1;
+}

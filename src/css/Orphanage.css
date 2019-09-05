@@ -1,0 +1,109 @@
+.orph {
+    margin: 0%; 
+    padding: 5% 0 5% 0;   
+    background: url('../img/orphan.jpg');
+    font-family: "montserrat",sans-serif; 
+    background-size: cover; 
+}
+
+#details
+{
+    text-align: right; 
+    margin-right: 10%;
+
+}
+#details h1{
+    font-size: 50px;
+}
+#details h1,h3{
+    text-align: center;
+    color: white;
+    
+}
+#ons{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    padding: 5px; 
+    width: 300px;
+    font-family: "montserrat",sans-serif;
+    height:40px;
+    color:rgb(255, 255, 255);
+    font-size:18px; 
+}
+#ons::placeholder{
+    color: white
+}
+#signout
+{
+    height: 50px;
+    width: 140px;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+}
+#signout:hover{
+    background-position: 200px 0;
+    color: white;
+    opacity: 1;
+}
+#ocl{
+    color: #000;
+    font-size: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+    border-radius: 20px;
+    
+}
+#osb{
+    color: #000;
+    font-size: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+    border-radius: 20px;
+    
+}
+#ocl:hover{
+    background-position: 200px 0;
+    color: rgb(243, 14, 14);
+    opacity: 1;
+}
+#osb:hover{
+    background-position: 200px 0;
+    color: rgb(14, 253, 6);
+    opacity: 1;
+}

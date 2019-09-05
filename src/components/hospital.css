@@ -1,0 +1,60 @@
+body {
+    margin: 0%; 
+    padding: 0%; 
+}
+
+#root {
+    margin: 0%; 
+    padding: 0%; 
+}
+
+#details5
+{
+    text-align: left; 
+    margin-left: 3%;
+}
+.hospital{
+    background: url('../img/hos.jpg');;
+    background-size:cover;
+    padding :40px 0;
+    
+}
+#heading2{
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 5%;
+    font-size: 35px;
+    color: pink;
+    }
+/* input{
+    border: none;
+    border-bottom:1px solid #000;
+    background: transparent;
+    outline:none;
+    margin-left: 2%;
+    padding: 5px; 
+    width: 300px;
+    height:40px;
+    color:rgb(238, 229, 229);
+    font-size:16px;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:black;
+    text-align: left;
+  }
+::placeholder{
+    color: black;
+    text-align: left;
+} */
+#submit{
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+
+#signout
+{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+}

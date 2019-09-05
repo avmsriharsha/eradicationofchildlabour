@@ -1,0 +1,93 @@
+body{
+    margin-top: 0px;
+    border: none;
+    text-align: center;
+}
+.Register{
+    background:url('../img/re6.jpg');
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 5% 0 10% 0;
+}
+
+.Registerbox{
+    margin-left: 35%;
+    margin-right: 35%;
+    background:rgba(219, 203, 203, 0.5);
+    border-radius: 20px;
+    padding: 2% 0 2% 0;
+}
+#heading3{
+    text-align: center;
+    color: black;
+}
+#rns{
+    border: none;
+    border-bottom:1px solid #000;
+    background: transparent;
+    outline:none;
+    padding: 5px; 
+    width: 300px;
+    height:40px;
+    color: black;
+    font-size:16px;
+    font-weight: bold;
+}
+#rns::placeholder{
+    color: black;
+} 
+#recl{
+    color: #000;
+    margin-right: 20px;
+    font-size: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+    border-radius: 20px;
+    
+}
+#resb{
+    color: #000;
+    font-size: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+    border-radius: 20px;
+    
+}
+#recl:hover{
+    background-position: 200px 0;
+    color: rgb(243, 14, 14);
+    opacity: 1;
+}
+#resb:hover{
+    background-position: 200px 0;
+    color: rgb(14, 253, 6);
+    opacity: 1;
+}
+
+/* body {
+    margin: 0%; 
+    padding: 0%; 
+    background: url(); 
+} */

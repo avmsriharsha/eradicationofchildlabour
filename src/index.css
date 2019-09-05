@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.login {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.loginbox {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background: url("./img/Holi-Festival.jpg");
+  background-size: cover;
+}
+
+.Complaint {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.hospital {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("./img/hos.jpg");
+}
+.angan1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.Orphanage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.School {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.School1st {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.Police1st
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("./img/police1st.jpg");
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

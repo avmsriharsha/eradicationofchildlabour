@@ -1,0 +1,90 @@
+.title2{
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Montserrat' ,sans-serif;
+    color: black;
+}
+.body2{
+    margin-top: 5%;
+    text-align: center;
+}
+.angan1{
+    background: url('../img/court22.jpg');
+
+}
+#signout0{
+    margin-top: 25px;
+    margin-right: 40px;
+    position:absolute;
+    top:0;
+    right:0;
+    height: 50px;
+    width: 140px;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+}
+#signout0:hover{
+    background-position: 200px 0;
+    color: white;
+    opacity: 1;
+}
+#an,#en{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+#an::placeholder{
+    color: grey;
+}
+#an{
+    background: #000;
+    width: 340px;
+    height: 50px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+#en{
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color:black;
+}
+#en:hover{
+    background: #ff5722;
+}
+#nwety{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+    color:white;
+    background: grey;
+}
+#nwety:hover{
+    background: green;
+}
+
+

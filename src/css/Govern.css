@@ -1,0 +1,60 @@
+.gun{
+    background-color: black;
+}
+.headers{
+
+    height: 60px;
+}
+.ns{
+    color: white;
+    outline: none;
+    height: 40px;
+    transition: color 0.5s linear;
+    background: none;
+    margin-top: 10px;
+    padding: 0 9% 0 9%;
+}
+.ns:hover{
+    background-color: orange;
+    box-shadow: 0 2px 2px;
+}
+.na{
+    color: blue;
+    background: none;
+    outline: none;
+    height: 40px;
+    transition: color 0.5s linear;
+    margin-top: 10px;
+    padding: 0 9% 0 9%;
+}
+.na:hover{
+    background-color: white;
+    box-shadow: 0 2px 2px;
+}
+.ne{
+    outline: none;
+    color: blue;
+    height: 40px;
+    transition: color 0.5s linear;
+    background: none;
+    margin-top: 10px;
+    padding: 0 9% 0 9%;
+}
+.ne:hover{
+    background-color: white;
+    box-shadow: 0 2px 2px;
+}
+.ni{
+    color: white;
+    transition: color 0.5s linear;
+    background: none;
+    height: 40px;
+    outline: none;
+    margin-top: 10px;
+    padding: 0 9% 0 9%;
+}
+.ni:hover{
+
+    background-color: green;
+    box-shadow: 0 2px 2px;
+}

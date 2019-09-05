@@ -1,0 +1,107 @@
+.angan {
+    margin: 0%; 
+    padding: 5% 0 5% 0; 
+    color: black;  
+    background: url('../img/a2.jpeg');
+    background-size: cover;
+}
+.title2{
+    font-size: 35px;
+}
+#details2
+{
+    text-align: left; 
+    margin-left: 3%;
+}
+#hash{
+    text-align: center;
+    margin-left: 3%;
+    font-size: 40px;
+}
+#ans{
+    border: none;
+    border-bottom:1px solid #000;
+    background: transparent;
+    outline: none;
+    padding: 5px; 
+    width: 300px;
+    height:40px;
+    color: black;
+    font-size:18px;
+}
+#ans::placeholder{
+    color: black;
+}
+#signOut
+{
+    height: 50px;
+    width: 140px;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+}
+#signOut:hover{
+    background-position: 200px 0;
+    color: white;
+    opacity: 1;
+}
+#acl{
+    color: #000;
+    font-size: 20px;
+    width: 120px;
+    height: 35px;
+    margin-left: 0%;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+    border-radius: 20px;
+    
+}
+#asb{
+    color: #000;
+    font-size: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+    border-radius: 20px;
+    
+}
+#acl:hover{
+    background-position: 200px 0;
+    color: rgb(243, 14, 14);
+    opacity: 1;
+}
+#asb:hover{
+    background-position: 200px 0;
+    color: rgb(14, 253, 6);
+    opacity: 1;
+}

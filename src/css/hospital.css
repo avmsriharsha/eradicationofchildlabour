@@ -1,0 +1,121 @@
+body {
+    margin: 0%; 
+    padding: 0%; 
+}
+
+#root {
+    margin: 0%; 
+    padding: 0%; 
+}
+
+#details5
+{
+    text-align: left; 
+    margin-left: 3%;
+}
+.hospital{
+    background: url('../img/h1.jpg');;
+    background-size:cover;
+    padding :40px 0;
+    
+}
+#heading2{
+    text-align: left;
+    font-family: 'Montserrat' ,sans-serif;
+    margin-top: 0%;
+    margin-left: 5%;
+    font-size: 50px;
+    color: black;
+}
+#hns{
+    border: none;
+    border-bottom:1px solid #000;
+    background: transparent;
+    outline:none;
+    margin-left: 2%;
+    padding: 5px; 
+    width: 300px;
+    height:40px;
+    color:black;
+    font-size:16px;
+}
+#hns::placeholder{
+    color: black;
+} 
+#submit{
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+#Signout
+{
+    height: 50px;
+    width: 140px;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+}
+#Signout:hover{
+    background-position: 200px 0;
+    color: white;
+    opacity: 1;
+}
+#hcl{
+    color: #000;
+    font-size: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+    border-radius: 20px;
+    
+}
+#hsb{
+    color: #000;
+    font-size: 20px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(0deg,transparent 50%,rgb(48, 48, 48) 50%);
+    background-size: 400px 80px;
+    border: 2px solid #000;
+    transition: 0.5s;
+    box-shadow: 0 1.5px 1.5px;
+    border-radius: 20px;
+    
+}
+#hcl:hover{
+    background-position: 200px 0;
+    color: rgb(243, 14, 14);
+    opacity: 1;
+}
+#hsb:hover{
+    background-position: 200px 0;
+    color: rgb(14, 253, 6);
+    opacity: 1;
+}

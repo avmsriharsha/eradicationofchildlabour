@@ -1,0 +1,17 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+  table{
+    width:100%;
+  }
+  .image{
+      width:40%;
+  }
+  .des,address{
+      width:25%;
+  }
+  .status{
+    width: 10%;
+  }
+  
